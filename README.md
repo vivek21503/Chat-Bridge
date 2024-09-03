@@ -1,6 +1,6 @@
 # Chat Bridge
 
-**Chat Bridge** is a real-time one-to-one chat application built with modern web technologies. It provides a secure and interactive platform for users to chat with each other, featuring real-time communication, user authentication, and chat management functionalities.
+**Chat Bridge** is a real-time one-to-one chat application . It provides a secure and interactive platform for users to chat with each other, featuring real-time communication, user authentication, and chat management functionalities.
 
 ## Tech Stack
 
