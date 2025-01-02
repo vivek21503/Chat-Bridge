@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/register" method="POST" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Enter Name" required>
+        <br><br>
+        <input type="email" name="email" placeholder="Enter Email" required>
+        <br><br>
+        <input type="file" name="image" required>
+        <br><br>
+        <input type="password" name="password" placeholder="Enter password" required>
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+
+    <% if (typeof message !== 'undefined') { %>
+        <p style="color:green;"><%= message %></p>
+    <% } %>
+
+</body>
+</html>
